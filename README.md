@@ -2,12 +2,17 @@ Currently, this is just a self-maintained repository for keeping up with the lat
 
 > Some comments on these work are just personal, and maybe incorrect. All the selected work here still have my highest appreciation.
 
-> * Acronyms Notes
-OT: Oblivious Transfer
-GC: Garbled Circuit
-MPC: Multi-Party Compuation
-SS: Secret-sharing
-
+> **Acronyms Notes**
+>
+> OT: Oblivious Transfer
+>
+> GC: Garbled Circuit
+>
+> HE: Homomorphic Encryption
+>
+> MPC: Multi-Party Compuation
+>
+> SS: Secret-sharing
 
 
 ## Academic Papers
@@ -20,4 +25,4 @@ This is an end-to-end system for tranforming native TensorFlow program to MPC-ba
 ### DELPHI [link](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)
 > Mishra, Pratyush, et al. "DELPHI: A cryptographic inference service for neural networks." 29th {USENIX} Security Symposium ({USENIX} Security 20). 2020.
 
-Keywords: based on homomorphic encryption (SEAL), Garbled circuit and OT for outsourcing **Prediction** tasks.
+Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Prediction** tasks.
