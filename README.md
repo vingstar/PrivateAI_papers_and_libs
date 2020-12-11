@@ -24,7 +24,7 @@ Currently, this is just a self-maintained repository for keeping up with the lat
 ### Wolverine [link](https://eprint.iacr.org/2020/925.pdf)
 > Weng, Chenkai, et al. Wolverine: Fast, Scalable, and Communication-Efficient Zero-Knowledge Proofs for Boolean and Arithmetic Circuits. Cryptology ePrint Archive, Report 2020/925, 2020. https://eprint. iacr. org/2020/925.
 
-This is a latest ZKP system, and it is rather efficient and practical usable. The basic idea is just the so-called e “MPC-in-the-head” approach, so it is similar to MPC.
+This is a latest ZKP system, and it is rather efficient and seems practically usable. The basic idea is just the so-called e “MPC-in-the-head” approach, so it is similar to MPC.
 
 ### CryptFlow [link](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/CrypTFlow.pdf)
 > Kumar, Nishant, et al. "Cryptflow: Secure tensorflow inference." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020
