@@ -1,4 +1,4 @@
-Currently, this is just a self-maintained repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
+Currently, this is mainly an individual repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
 
 > Some comments on these work are just personal, and maybe incorrect. All the selected work here still have my highest appreciation.
 
