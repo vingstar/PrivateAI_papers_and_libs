@@ -21,6 +21,11 @@ Currently, this is mainly an individual repository for keeping up with the lates
 
 ## 2020
 
+### ABY2.0 [link](https://eprint.iacr.org/2020/1225.pdf)
+> Patra, Arpita, et al. "ABY2. 0: Improved mixed-protocol secure two-party computation." USENIX Security. Vol. 21. 2020.
+
+This is simiar to their prior work BLAZE and ASTRA.
+
 ### Wolverine [link](https://eprint.iacr.org/2020/925.pdf)
 > Weng, Chenkai, et al. Wolverine: Fast, Scalable, and Communication-Efficient Zero-Knowledge Proofs for Boolean and Arithmetic Circuits. Cryptology ePrint Archive, Report 2020/925, 2020. https://eprint. iacr. org/2020/925.
 
