@@ -21,6 +21,11 @@ Currently, this is mainly an individual repository for keeping up with the lates
 
 ## 2020
 
+### EdaBits [link](https://eprint.iacr.org/2020/338.pdf)
+> Escudero, Daniel, Satrajit Ghosh, Marcel Keller, Rahul Rachuri, and Peter Scholl. "Improved Primitives for MPC over Mixed Arithmetic-Binary Circuits." IACR Cryptol. ePrint Arch. 2020 (2020): 338.
+
+A new efficient conversion between arithmatic and boolean number representation is proposed, and it seems very generic and efficient.
+
 ### ABY2.0 [link](https://eprint.iacr.org/2020/1225.pdf)
 > Patra, Arpita, et al. "ABY2. 0: Improved mixed-protocol secure two-party computation." USENIX Security. Vol. 21. 2020.
 
