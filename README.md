@@ -21,6 +21,11 @@ Currently, this is mainly an individual repository for keeping up with the lates
 
 ## 2020
 
+### CrypTFlow2 [link](https://eprint.iacr.org/2020/1002.pdf)
+> Rathee, Deevashwer, Mayank Rathee, Nishant Kumar, Nishanth Chandran, Divya Gupta, Aseem Rastogi, and Rahul Sharma. "CrypTFlow2: Practical 2-party secure inference." In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security, pp. 325-342. 2020.
+
+A updated version of CrypTFlow.
+
 ### EdaBits [link](https://eprint.iacr.org/2020/338.pdf)
 > Escudero, Daniel, Satrajit Ghosh, Marcel Keller, Rahul Rachuri, and Peter Scholl. "Improved Primitives for MPC over Mixed Arithmetic-Binary Circuits." IACR Cryptol. ePrint Arch. 2020 (2020): 338.
 
@@ -36,7 +41,7 @@ This is similar to their prior work BLAZE and ASTRA.
 
 This is a latest ZKP system, and it is rather efficient and seems practically usable. The basic idea is just the so-called e “MPC-in-the-head” approach, so it is similar to MPC.
 
-### CryptFlow [link](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/CrypTFlow.pdf)
+### CrypTFlow [link](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/CrypTFlow.pdf)
 > Kumar, Nishant, et al. "Cryptflow: Secure tensorflow inference." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020
 
 This is an end-to-end system for tranforming native TensorFlow program to MPC-backed program, done by Microsoft teams. The aim is the same as [LatticeX/Rosetta](https://github.com/LatticeX-Foundation/Rosetta).
