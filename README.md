@@ -62,6 +62,10 @@ I think this is an important paper in this direction for its concrete implementa
 ### EzPC [link](https://eprint.iacr.org/2017/1109.pdf)
 > Chandran, Nishanth, Divya Gupta, Aseem Rastogi, Rahul Sharma, and Shardul Tripathi. "EzPC: programmable, efficient, and scalable secure two-party computation for machine learning." ePrint Report 1109 (2017).
 
-The main contribution is to present a new C-dialect language and its compiler to convert the source code to MPC-enabled backend runable executable file. In my opinion, this is a good try at the direction of providing easy-to-use interface for developer using MPC. This is an open source [project](https://github.com/mpc-msri/EzPC), and the team has made some following research, such as Cryptflow.
+The main contribution is to present a new C-dialect language and its compiler to convert the source code to MPC-enabled backend runable executable file. In my opinion, this is a good try at the direction of providing easy-to-use interface for developer using MPC. This is an open source [project](https://github.com/mpc-msri/EzPC), and the team has made some following research, such as Cryptflow. "In summary, EzPC raises the level of abstraction for the programmer, and generates efficient 2PC protocols automatically, while its metatheory provides strong correctness and security guarantees."
+> * Automatic chose whether to use arithmatic circuit or boolean circuit. 
+> * ABY backend is used only for now.
+> * The major part, section 4, is about the compiler design to ensure both correctness and security.
+
 
 
