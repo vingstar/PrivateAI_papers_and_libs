@@ -58,3 +58,10 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 > Mohassel, Payman, and Yupeng Zhang. "Secureml: A system for scalable privacy-preserving machine learning." 2017 IEEE Symposium on Security and Privacy (SP). IEEE, 2017.
 
 I think this is an important paper in this direction for its concrete implementation based on the share of fixed-point integer. This idea is adopted in many later construction. It also detailed how to use the schema of Offline-Online to speedup. This paper is solid. But, you may pay attention to the truncation algorithm and its analysis in Theorem within this paper, becasue the so-called negeligible error probability is likely to occur when you build a general MPC system.
+
+### EzPC [link](https://eprint.iacr.org/2017/1109.pdf)
+> Chandran, Nishanth, Divya Gupta, Aseem Rastogi, Rahul Sharma, and Shardul Tripathi. "EzPC: programmable, efficient, and scalable secure two-party computation for machine learning." ePrint Report 1109 (2017).
+
+The main contribution is to present a new C-dialect language and its compiler to convert the source code  to MPC-enabled backend runable executive file. In my opinion, this is a good try at the direction of providing easy-to-use interface for developer  using MPC. This is an open source [project](https://github.com/mpc-msri/EzPC), and the team has made some following research, such as Cryptflow.
+
+
