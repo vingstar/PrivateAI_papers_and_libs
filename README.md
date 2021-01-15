@@ -1,4 +1,4 @@
-Currently, this is mainly an individual repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
+Currently, this is mainly a personal repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
 
 > Some comments on these work are just personal, and maybe incorrect. All the selected work here still have my highest appreciation.
 
@@ -62,6 +62,6 @@ I think this is an important paper in this direction for its concrete implementa
 ### EzPC [link](https://eprint.iacr.org/2017/1109.pdf)
 > Chandran, Nishanth, Divya Gupta, Aseem Rastogi, Rahul Sharma, and Shardul Tripathi. "EzPC: programmable, efficient, and scalable secure two-party computation for machine learning." ePrint Report 1109 (2017).
 
-The main contribution is to present a new C-dialect language and its compiler to convert the source code  to MPC-enabled backend runable executive file. In my opinion, this is a good try at the direction of providing easy-to-use interface for developer  using MPC. This is an open source [project](https://github.com/mpc-msri/EzPC), and the team has made some following research, such as Cryptflow.
+The main contribution is to present a new C-dialect language and its compiler to convert the source code to MPC-enabled backend runable executable file. In my opinion, this is a good try at the direction of providing easy-to-use interface for developer using MPC. This is an open source [project](https://github.com/mpc-msri/EzPC), and the team has made some following research, such as Cryptflow.
 
 
