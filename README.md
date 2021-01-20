@@ -51,6 +51,11 @@ This is an end-to-end system for tranforming native TensorFlow program to MPC-ba
 
 Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Prediction** tasks.
 
+## 2019 
+
+## QUOTIENT [link](https://arxiv.org/pdf/1907.03372.pdf)
+> Agrawal, Nitin, Ali Shahin Shamsabadi, Matt J. Kusner, and Adrià Gascón. "QUOTIENT: two-party secure neural network training and prediction." In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 1231-1247. 2019.
+
 
 ## 2017
 
