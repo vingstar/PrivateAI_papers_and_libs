@@ -53,7 +53,7 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 
 ## 2019 
 
-## QUOTIENT [link](https://arxiv.org/pdf/1907.03372.pdf)
+### QUOTIENT [link](https://arxiv.org/pdf/1907.03372.pdf)
 > Agrawal, Nitin, Ali Shahin Shamsabadi, Matt J. Kusner, and Adrià Gascón. "QUOTIENT: two-party secure neural network training and prediction." In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 1231-1247. 2019.
 
 
