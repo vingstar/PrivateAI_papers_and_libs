@@ -21,7 +21,7 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 
 ## 2021
 
-### QuickSilver[link](https://eprint.iacr.org/2021/076.pdf)
+### QuickSilver [link](https://eprint.iacr.org/2021/076.pdf)
 > Kang Yang and Pratik Sarkar and Chenkai Weng and Xiao Wang. QuickSilver: Efficient and Affordable Zero-Knowledge Proofs for Circuits and Polynomials over Any Field. https://eprint.iacr.org/2021/076
 
 A more practical ZKP protocol with many concrete improvements based on [Wolverine](https://eprint.iacr.org/2020/925.pdf)
