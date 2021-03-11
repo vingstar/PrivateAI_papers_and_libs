@@ -15,6 +15,8 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 > SS: Secret-sharing
 >
 > ZKP: Zero Knowledge Proof
+> 
+> FL: Federated Learning
 
 
 # Academic Papers
@@ -62,6 +64,13 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 
 ### QUOTIENT [link](https://arxiv.org/pdf/1907.03372.pdf)
 > Agrawal, Nitin, Ali Shahin Shamsabadi, Matt J. Kusner, and Adrià Gascón. "QUOTIENT: two-party secure neural network training and prediction." In Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 1231-1247. 2019.
+
+### OTEHRS 
+
+#### Privacy-Preserving Decision Tree Training and Prediction against Malicious Server. [link](https://eprint.iacr.org/2019/1282) 
+> Akavia, Adi, Max Leibovich, Yehezkel S. Resheff, Roey Ron, Moni Shahar, and Margarita Vald. "Privacy-Preserving Decision Tree Training and Prediction against Malicious Server." IACR Cryptol. ePrint Arch. 2019 (2019): 1282. 
+
+This paper propose a HE-based secure decision tree training algorithm.  
 
 
 ## 2017
