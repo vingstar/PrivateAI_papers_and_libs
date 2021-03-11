@@ -72,6 +72,11 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 
 This paper propose a HE-based secure decision tree training algorithm.  
 
+#### SecureBoost [link](https://arxiv.org/abs/1901.08755)
+> Cheng, Kewei, Tao Fan, Yilun Jin, Yang Liu, Tianjian Chen, and Qiang Yang. "Secureboost: A lossless federated learning framework." arXiv preprint arXiv:1901.08755 (2019).
+
+This paper propose a **FL**-based solution to train a gradient boosting decision tree model securely. This solution seems elegent, though some security concerns remains since it is based one the efficient FL approach rather than based on cryptography. 
+
 
 ## 2017
 
