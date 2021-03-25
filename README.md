@@ -1,5 +1,7 @@
 Currently, this is mainly a personal repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
 
+> I ONLY list here the papers I have read, so this is far from being complete.
+> 
 > Some comments on these work are just personal, and maybe incorrect. All the selected work here still have my highest appreciation.
 
 > **Acronyms Notes**
