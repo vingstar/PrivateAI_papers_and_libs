@@ -1,6 +1,6 @@
 Currently, this is mainly a personal repository for keeping up with the lateset advancement in Privacy-Preserving AI field. It consists of two main parts, the first being the academic papers, the other being the concrete engineering libraries.
 
-> I ONLY list here the papers I have read, so this is far from being complete.
+> I **ONLY** list here the papers I have read, so this is far from being complete.
 > 
 > Some comments on these work are just personal, and maybe incorrect. All the selected work here still have my highest appreciation.
 
@@ -74,7 +74,7 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 
 This paper propose a HE-based secure decision tree training algorithm.  
 
-#### SecureBoost [link](https://arxiv.org/abs/1901.08755)
+#### <a name="SecureBoost"></a>SecureBoost [link](https://arxiv.org/abs/1901.08755)
 > Cheng, Kewei, Tao Fan, Yilun Jin, Yang Liu, Tianjian Chen, and Qiang Yang. "Secureboost: A lossless federated learning framework." arXiv preprint arXiv:1901.08755 (2019).
 
 This paper propose a **FL**-based solution to train a gradient boosting decision tree model securely. This solution seems elegent, though some security concerns remains since it is based one the efficient FL approach rather than based on cryptography. 
@@ -104,5 +104,8 @@ The main contribution is to present a new C-dialect language and its compiler to
 > In this scene, clients have ALL the data while cloud server provides computation power ONLY.
 > 
 
-* [Privacy-Preserving Decision Tree Training and Prediction against Malicious Server](#PPDTTPAMS) proposed a HE-based solution, the essential idea is to encrypt a 0-1 indicator vector to indicate whether a sample is within a tree node.
+* [Privacy-Preserving Decision Tree Training and Prediction against Malicious Server](#PPDTTPAMS) proposed a HE-based solution, the essential idea is to encrypt a 0-1 indicator vector to indicate whether a sample is within a tree node. The tree model is ID3 only.
+
+### Multi-party  over VERTICAL 
+* [SecureBoost](#SecureBoost) provides a elegent FL-based solution to train an XGboost model among multiple data-providers. It also use basic HE tools to enable the feature-holder can accumulate its G and H among every possible local split-point. Then the Label-holder can decrypt and  find the best split-point INDEX after aggerating these Gs and Hs from every feature-holder. However, the solution has NO rigorous security proof, and its leaked intermediate information can actually dangerous. In short, IMHO, the global framework of SecureBoost is insightfull, while there still has much work to enhance its security levle.
 
