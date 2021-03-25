@@ -98,6 +98,9 @@ The main contribution is to present a new C-dialect language and its compiler to
 
 ## Privacy-preserving Tree-based Models
 
-### Outsourcing Computation: clients have data while could server provides computation ONLY
-[Privacy-Preserving Decision Tree Training and Prediction against Malicious Server](#PPDTTPAMS) proposed a HE-based solution, the essential idea is to encrypt a 0-1 indicator vector to indicate whether a sample is within a tree node.
+### Outsourcing Computation
+> In this scene, clients have ALL the data while cloud server provides computation power ONLY.
+> 
+
+* [Privacy-Preserving Decision Tree Training and Prediction against Malicious Server](#PPDTTPAMS) proposed a HE-based solution, the essential idea is to encrypt a 0-1 indicator vector to indicate whether a sample is within a tree node.
 
