@@ -67,7 +67,7 @@ Keywords: hybrid approach based on HE (SEAL), GC and OT for outsourcing **Predic
 
 ### OTEHRS 
 
-#### Privacy-Preserving Decision Tree Training and Prediction against Malicious Server. [link](https://eprint.iacr.org/2019/1282) 
+#### <a name="PPDTTPAMS"></a> Privacy-Preserving Decision Tree Training and Prediction against Malicious Server. [link](https://eprint.iacr.org/2019/1282)
 > Akavia, Adi, Max Leibovich, Yehezkel S. Resheff, Roey Ron, Moni Shahar, and Margarita Vald. "Privacy-Preserving Decision Tree Training and Prediction against Malicious Server." IACR Cryptol. ePrint Arch. 2019 (2019): 1282. 
 
 This paper propose a HE-based secure decision tree training algorithm.  
@@ -96,6 +96,8 @@ The main contribution is to present a new C-dialect language and its compiler to
 
 # Special Topics
 
-## Privacypreserving Tree-based Models
+## Privacy-preserving Tree-based Models
 
+### Outsourcing Computation: clients have data while could server provides computation ONLY
+[Privacy-Preserving Decision Tree Training and Prediction against Malicious Server](#PPDTTPAMS) proposed a HE-based solution, the essential idea is to encrypt a 0-1 indicator vector to indicate whether a sample is within a tree node.
 
