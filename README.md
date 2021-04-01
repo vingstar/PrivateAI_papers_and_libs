@@ -111,3 +111,10 @@ The main contribution is to present a new C-dialect language and its compiler to
 
 * **Pivot** [link](https://arxiv.org/pdf/2008.06170.pdf) propose a solution to the same problem, training and prediction tree-based models among multi-party with vertically partioned data, by ulitizing both HE, actually all-threshold HE, and MPC, SPDZ in their implementation, in a rather rigorous way. 
  > Wu, Yuncheng, Shaofeng Cai, Xiaokui Xiao, Gang Chen, and Beng Chin Ooi. "Privacy preserving vertical federated learning for tree-based models." arXiv preprint arXiv:2008.06170 (2020).
+ > 
+
+
+# Libraries and Frameworks
+
+* [Fedlearner](https://github.com/bytedance/fedlearner). A FL framework developed by ByteDance team, and it support tree-based and NN-based models.
+
