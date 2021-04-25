@@ -25,6 +25,12 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 
 ## 2021
 
+### XORBoost [link](https://eprint.iacr.org/2021/432)
+> Kevin Deforth and Marc Desgroseilliers and Nicolas Gama and Mariya Georgieva and Dimitar Jetchev and Marius Vuille. XORBoost: Tree Boosting in the Multiparty Computation Setting. https://eprint.iacr.org/2021/432
+
+This paper describe how to train and predict with XGBoost algorothm in a secure way, and its solution is wholly based on MPC. The main idea is to `express` the candidate split feature and its thresholf by utilizing the permutaion protcol and `bucket vector`. 
+
+
 ### QuickSilver [link](https://eprint.iacr.org/2021/076.pdf)
 > Kang Yang and Pratik Sarkar and Chenkai Weng and Xiao Wang. QuickSilver: Efficient and Affordable Zero-Knowledge Proofs for Circuits and Polynomials over Any Field. https://eprint.iacr.org/2021/076
 
