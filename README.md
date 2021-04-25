@@ -32,7 +32,7 @@ This paper describe how to train and predict with XGBoost algorothm in a secure 
 
 The performance seems good for ensemble trees with small depth.
 
-The solution proposed by this paper can handle both Vertical and horizontal partitioned datasets. But if we can utilize the chracteristic of VFL, that the whole data vector of a specific feature is held by a party, some computation can be optimized out further.  
+The solution proposed by this paper can handle both Vertical and horizontal partitioned datasets. In pratice, the dataset is ofen vertical partitioned. So if we can utilize the chracteristic of VFL, that the WHOLE data vector of a specific FEATURE is held by ONE party, some computation can be optimized further.  
 
 
 ### QuickSilver [link](https://eprint.iacr.org/2021/076.pdf)
