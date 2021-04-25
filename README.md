@@ -28,7 +28,11 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 ### XORBoost [link](https://eprint.iacr.org/2021/432)
 > Kevin Deforth and Marc Desgroseilliers and Nicolas Gama and Mariya Georgieva and Dimitar Jetchev and Marius Vuille. XORBoost: Tree Boosting in the Multiparty Computation Setting. https://eprint.iacr.org/2021/432
 
-This paper describe how to train and predict with XGBoost algorothm in a secure way, and its solution is wholly based on MPC. The main idea is to `express` the candidate split feature and its thresholf by utilizing the permutaion protcol and `bucket vector`. 
+This paper describe how to train and predict with XGBoost algorothm in a secure way, and its solution is wholly based on MPC. The main idea is to `express` the candidate split feature and its threshold by permutated binary `bucket vector` utilizing the permutaion protcol in their prior work about Manticore protocol. The training instance subset corresponding to each internal node is also presented by binary `instance vector`, and updated by element-wise MUL of this `instance vector` and `selector vector`, which can be derived from permutated `bucket vector`.
+
+The performance seems good for ensemble trees with small depth.
+
+The solution proposed by this paper can handle both Vertical and horizontal partitioned datasets. But if we can utilize the chracteristic of VFL, that the whole data vector of a specific feature is held by a party, some computation can be optimized out further.  
 
 
 ### QuickSilver [link](https://eprint.iacr.org/2021/076.pdf)
