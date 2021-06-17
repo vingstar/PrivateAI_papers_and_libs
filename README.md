@@ -25,6 +25,9 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 
 ## 2021
 
+### Cerebro [link](https://www.usenix.org/conference/usenixsecurity21/presentation/zheng) 
+> Zheng, Wenting, Ryan Deng, Weikeng Chen, Raluca Ada Popa, Aurojit Panda, and Ion Stoica. "Cerebro: A platform for multi-party cryptographic collaborative learning." In 30th {USENIX} Security Symposium ({USENIX} Security 21). 2021.
+
 ### XORBoost [link](https://eprint.iacr.org/2021/432)
 > Kevin Deforth and Marc Desgroseilliers and Nicolas Gama and Mariya Georgieva and Dimitar Jetchev and Marius Vuille. XORBoost: Tree Boosting in the Multiparty Computation Setting. https://eprint.iacr.org/2021/432
 
