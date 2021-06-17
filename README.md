@@ -28,6 +28,7 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 ### Cerebro [link](https://www.usenix.org/conference/usenixsecurity21/presentation/zheng) 
 > Zheng, Wenting, Ryan Deng, Weikeng Chen, Raluca Ada Popa, Aurojit Panda, and Ion Stoica. "Cerebro: A platform for multi-party cryptographic collaborative learning." In 30th {USENIX} Security Symposium ({USENIX} Security 21). 2021.
 > With code: https://github:com/mc2-project/cerebro
+
 This paper provides a end-to-end platform for private AI. It consists of several components for the whole process, a `easy-to-use` DSL that you can use to express your ML task, a compiler whose frontend can generate the logical MPC-backed computation corresponding to the DSL script, and the backend part of it can even further optimize the deployment of some nodes based on network conditions of every nodes. You can also specific when and how the resulting plaintext model result can be exposed to some parties by `compute policies`. At last, after the computation, you can start a audit process to check who had posied the learned model with malicous input data, which can be achived by some cryptographic commitment scheme. With such `cryptographic audit` ability, it can make the participants accountable.
 
 In my opinion, this platform seems a litte too ambitious. Thw key takeaways from what I've learned is some optimization tricks used in compiling from the DSL to the effcient MPC computation, which are also appliable to other generic systems.
