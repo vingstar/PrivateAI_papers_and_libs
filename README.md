@@ -54,7 +54,7 @@ A more practical ZKP protocol with many concrete improvements based on [Wolverin
 ### CrypTFlow2 [link](https://eprint.iacr.org/2020/1002.pdf)
 > Rathee, Deevashwer, Mayank Rathee, Nishant Kumar, Nishanth Chandran, Divya Gupta, Aseem Rastogi, and Rahul Sharma. "CrypTFlow2: Practical 2-party secure inference." In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security, pp. 325-342. 2020.
 
-A updated version of CrypTFlow.
+A updated version of CrypTFlow. Mainly, in 2PC semi-honest model, A protocol for comparsion and a protocol for dividion without precision loss are proposed. The two protocols seem quite hand-tuned, but with concrete improvement in communication complexity.
 
 ### EdaBits [link](https://eprint.iacr.org/2020/338.pdf)
 > Escudero, Daniel, Satrajit Ghosh, Marcel Keller, Rahul Rachuri, and Peter Scholl. "Improved Primitives for MPC over Mixed Arithmetic-Binary Circuits." IACR Cryptol. ePrint Arch. 2020 (2020): 338.
@@ -75,6 +75,7 @@ This is a latest ZKP system, and it is rather efficient and seems practically us
 > Kumar, Nishant, et al. "Cryptflow: Secure tensorflow inference." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020
 
 This is an end-to-end system for tranforming native TensorFlow program to MPC-backed program, done by Microsoft teams. The aim is the same as [LatticeX/Rosetta](https://github.com/LatticeX-Foundation/Rosetta).
+But the compiler's output is still vallina C++ program, unlike Rosetta. So this may limit its future extension for more sophisticated computation.
 
 ### DELPHI [link](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)
 > Mishra, Pratyush, et al. "DELPHI: A cryptographic inference service for neural networks." 29th {USENIX} Security Symposium ({USENIX} Security 20). 2020.
