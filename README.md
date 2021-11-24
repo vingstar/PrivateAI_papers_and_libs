@@ -28,7 +28,7 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 ### Secrecy [link](https://arxiv.org/pdf/2102.01048.pdf)
 > Liagouris, John, Vasiliki Kalavri, Muhammad Faisal, and Mayank Varia. "Secrecy: Secure collaborative analytics on secret-shared data." arXiv preprint arXiv:2102.01048 (2021).
 
-This paper provides a solution to secure multi-party data analytics. The highlight is that this solution is based on the already secret-shared data rather than the plaintext data held by different party. The means that some optimizations base on preprocessing on plaintext input data, such as these proposed by [Conclave](https://arxiv.org/pdf/1902.06288.pdf), can not be used.
+This paper provides a solution to secure multi-party data analytics. The highlight is that this solution is based on the already secret-shared data rather than the plaintext data held by different party. This means that some optimizations base on preprocessing on plaintext input data, such as these proposed by [Conclave](https://arxiv.org/pdf/1902.06288.pdf), can not be used.
 
 
 
