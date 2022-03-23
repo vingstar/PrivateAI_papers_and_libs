@@ -25,6 +25,13 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 
 ## 2021
 
+### Cheetah [link](- https://eprint.iacr.org/2022/207.pdf)
+> Huang, Zhicong, Wen-jie Lu, Cheng Hong, and Jiansheng Ding. "Cheetah: Lean and Fast Secure Two-Party Deep Neural Network Inference." Cryptology ePrint Archive (2022).
+
+This paper follows the same story line of CrypTFlow2, and improve on two main aspects. First, An encoding-decoding scheme is proposed to map the matrix and vector values to HE polynomials, this can greatly simpify the HE cost. On the other hand, it replace the random OT primitives with the latest one, VOLE-style silent OT, and it also use a simple version of truncation that is precise enough for CNN from the practical aspect.
+
+We can see that it can indeed improve the total secure inference performance if we can conbine both MPC and HE in a clever and carful way. But these tricks are still hard to also be applied to secure training process, since some assumptions are not met, such as the parameters' gradients can not be only handled by one party during training.
+
 ### Secrecy [link](https://arxiv.org/pdf/2102.01048.pdf)
 > Liagouris, John, Vasiliki Kalavri, Muhammad Faisal, and Mayank Varia. "Secrecy: Secure collaborative analytics on secret-shared data." arXiv preprint arXiv:2102.01048 (2021).
 
