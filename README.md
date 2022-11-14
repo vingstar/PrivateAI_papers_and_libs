@@ -31,7 +31,7 @@ In the work of Mystique, we convert the floating point operations to binary circ
 
 ## 2021
 
-### Cheetah [link](- https://eprint.iacr.org/2022/207.pdf)
+### Cheetah [link](https://eprint.iacr.org/2022/207.pdf)
 > Huang, Zhicong, Wen-jie Lu, Cheng Hong, and Jiansheng Ding. "Cheetah: Lean and Fast Secure Two-Party Deep Neural Network Inference." Cryptology ePrint Archive (2022).
 
 This paper follows the same story line of CrypTFlow2, and improve on two main aspects. First, An encoding-decoding scheme is proposed to map the matrix and vector values to HE polynomials, this can greatly reduce the HE operations cost. On the other hand, it replaces the random OT primitives with the latest one, VOLE-style silent OT, and it also use a simple version of truncation that is precise enough for CNN from the practical aspect.
