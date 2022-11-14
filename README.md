@@ -23,6 +23,12 @@ Currently, this is mainly a personal repository for keeping up with the lateset 
 
 # Academic Papers
 
+## 2022
+
+### ZKP for Floating Point Computations [link](https://dl.acm.org/doi/pdf/10.1145/3548606.3560653)
+
+In the work of Mystique, we convert the floating point operations to binary circuits, following the IEEE-754 floating point standard. Acutally, during the process of implementation, we once tried to proof with approximate error bounding in each specific operations, but we found it hard to give a rigorous security proof. In this paper, a better solution for floating point computation is given with girorous proof.
+
 ## 2021
 
 ### Cheetah [link](- https://eprint.iacr.org/2022/207.pdf)
